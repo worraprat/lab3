@@ -1,12 +1,13 @@
 #include<iostream>
 using namespace std;
 int main(){
-    float x=2;y=70;
-    while(x<y){
-        cout<< 1/x;
+    float x=2,z,y=69;
+    while(x<=y){
+        z+=1/x;
         x=x+1;
+        
 
     }
-    cout<<"hello";
+    cout<< z;
     return 0;
 }
