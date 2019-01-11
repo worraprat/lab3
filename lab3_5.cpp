@@ -14,9 +14,9 @@ int main(){
             cout<<text1<<" " ;
         }else(count%2==1);{
             cout<<text2<<" ";
-            
+            count=count+1;
         }
-         count=count+1;
+
     }
     return 0;
 }
