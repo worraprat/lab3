@@ -7,5 +7,6 @@ int main(){
         x=1/(x+1);
 
     }
+    cout<<"hello";
     return 0;
 }
